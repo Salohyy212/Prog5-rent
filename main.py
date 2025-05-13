@@ -24,10 +24,9 @@ def afficher_objets(items):
 def main():
     system = RentalSystem()
 
-    # Ajout d'objets louables
-    system.add_item(RentalItem("Toyota Yaris"))
+    system.add_item(RentalItem("Caravane - Adria"))
     system.add_item(RentalItem("Maison de plage"))
-    system.add_item(RentalItem("Assiette en porcelaine"))
+    system.add_item(RentalItem("Assiette"))
 
     print("=== Application de Location ===")
 
